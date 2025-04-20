@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Telegraf bold';
+    src: url('fontes/Telegraf\ UltraBold\ 800.otf') format('truetype');
+  } 
+  @font-face {
+    font-family: 'Telegraf light';
+    src: url('fontes/Telegraf\ UltraLight\ 200.otf') format('truetype');
+  } 
+  @font-face {
+    font-family: 'Telegraf regular';
+    src: url('fontes/TelegrafRegular_272984568a25d8528fe2de8b20b29011.otf') format('truetype');
+  } 
+  @font-face {
+    font-family: 'Roxborough';
+    src: url('fontes/Roxborough\ CF.ttf') format('truetype');
+  } 
+  @font-face {
+    font-family: 'Inter';
+    src: url('fontes/Inter.ttc') format('truetype');
+  } 
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Inter', serif;
+}
+.container{
+    display: flex;
+}
+
+.img-perfil{
+    height: 300px;
+    border-radius: 20px;
+}
+
+
+.container-left{
+    background-color: #e6ccc8;
+    width: fit-content; 
+    padding-left: 20px;
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.container-right{
+    background-color: #f8f1f1;
+    padding-left: 20px;
+    width: 100%; 
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 30px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.img-icone{
+    height:35px;
+    margin-right: 5px;
+}
+
+.img-container-ctt{
+    display: flex;
+    align-items: center;
+
+}
+
+.sobre{
+    font-size: 30px;
+    font-family: 'Roxborough', serif;
+}
+
+.info{
+    font-size: 17px;
+    padding-top: 10px;
+ 
+}
+
+.contatos{
+    font-size: 30px;
+    font-family: 'Roxborough', serif;
+}
+
+.texto-contato{
+    font-size: 15px;
+    text-decoration: none;
+    color: #202021;
+}
+
+.formacao-titulo{
+    font-size: 30px;
+    font-family: 'Roxborough', serif;
+}
+
+.ano-formacao{
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.formacao{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.status-formacao{
+    font-size: 13px;
+}
+.nome-titulo{
+    font-size: 50px;
+    font-family: 'Roxborough', serif;
+}
+
+.texto{
+    font-size: 25px;
+    font-family: 'Telegraf regular', serif;;
+}
+
+.experiencia{
+    font-size: 30px;
+    font-family: 'Roxborough', serif;
+    padding-bottom: 20px;
+}
+
+.experiencia-nome{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.data-experiencia{
+    font-size: 13px;
+}
+
+.experiencia-descricao{
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+
+.habilidade{
+    font-size: 30px;
+    font-family: 'Roxborough', serif;
+    padding-bottom: 5px;
+}
+.habilidades-texto{
+    font-size: 17px;
+}
