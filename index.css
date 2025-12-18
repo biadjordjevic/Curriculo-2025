@@ -101,12 +101,12 @@ body{
 
 .ano-formacao{
     font-size: 13px;
-    padding-top: 10px;
 }
 
 .formacao{
     font-size: 20px;
     font-weight: 600;
+    margin-top: 10px;
 }
 
 .status-formacao{
@@ -149,4 +149,55 @@ body{
 }
 .habilidades-texto{
     font-size: 17px;
+}
+.peril-info{
+    font-size: 15px;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container-left, .container-right {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .img-perfil {
+        height: 200px;
+        align-self: center;
+    }
+
+    .sobre, .contatos, .formacao-titulo, .experiencia, .habilidade {
+        font-size: 24px;
+    }
+
+    .nome-titulo {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .texto {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .info, .habilidades-texto {
+        font-size: 14px;
+    }
+
+    .texto-contato {
+        font-size: 12px;
+    }
+
+    .formacao, .experiencia-nome, .experiencia-descricao {
+        font-size: 14px;
+    }
+
+    .ano-formacao, .status-formacao, .data-experiencia {
+        font-size: 12px;
+    }
 }
